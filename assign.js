@@ -4,7 +4,7 @@ let submit = document.getElementById('btn');
 let updValue = document.getElementById('child');
 
 submit.addEventListener('click', function(event) {
-    event.preventDefault(); // Prevents the default action of the form submit button when the button is clicked.
+    event.preventDefault();
     let min = parseInt(minValue.value);
     let max = parseInt(maxValue.value);
     
